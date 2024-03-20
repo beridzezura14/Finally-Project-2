@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-Developers Team</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -40,13 +40,13 @@
         </div>
 
     </div>
-    <header>
+    <header id="totop">
         <div class="header">
             <h1 class="logo">pixel studio</h1>
             <ul class="navbar">
-                <li> <a href="#" class="active">HOME</a></li>
-                <li> <a href="#">OUR TEAM</a></li>
-                <li> <a href="#">SERVICES</a></li>
+                <li> <a href="index.html" class="active">HOME</a></li>
+                <li> <a href="team.html">OUR TEAM</a></li>
+                <li> <a href="services.html">SERVICES</a></li>
                 <li> <a href="#">WORKS</a></li>
                 <li> <a href="#">PRICE</a></li>
                 <li> <a href="contact.html">CONTACTS</a></li>
@@ -174,6 +174,24 @@
                     <div class="services-number">01</div>
                     <div class="service-text">
                         <h4>PIXEL STUDIO</h4>
+                        <h3>Create Web-Site</h3>
+                        <p>Take the hassle out of online scheduling with tools to keep your clients happy and your calendar booked. Promote your availability, accept payments, and more. accept payments, and more.
+                        </p>
+                        <div class="hero-details service-btn">
+                            <a class="btn" href="service-page.html">VIEW DETAILS</a>
+                            <div>
+                                <div class="circle">
+                                    <div class="width-line"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-number">02</div>
+                    <div class="service-text">
+                        <h4>PIXEL STUDIO</h4>
                         <h3>UI/UX Desaign</h3>
                         <p>UX design focuses on creating a seamless and meaningful user experience by understanding user needs, conducting research, and designing intuitive interfaces, while UI design focuses.
                         </p>
@@ -188,24 +206,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="services-item">
-                    <div class="services-number">02</div>
-                    <div class="service-text">
-                        <h4>PIXEL STUDIO</h4>
-                        <h3>Build Web-Site</h3>
-                        <p>Take the hassle out of online scheduling with tools to keep your clients happy and your calendar booked. Promote your availability, accept payments, and more. accept payments, and more.
-                        </p>
-                        <div class="hero-details service-btn">
-                            <a class="btn" href="#">VIEW DETAILS</a>
-                            <div>
-                                <div class="circle">
-                                    <div class="width-line"></div>
-                                    <div class="dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="services-item">
                     <div class="services-number">03</div>
                     <div class="service-text">
@@ -243,9 +244,10 @@
                     </div>
                 </div>
             </div>
+            <a class="more-aboute-services" href="services.html">MORE ABOUT SERVICES</a>
         </div>   
     </section>
-    <section class="section-team-members">
+    <section id="best-squad" class="section-team-members">
         <h2>Our Team</h2>
         <dir class="team-members">
             <div class="member">
@@ -363,13 +365,16 @@
                 </div>
             </div>
             <div class="text-item">
-                <h3>Subscribe</h3>
+                <h3>SUBSCRIBE</h3>
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur qui</p> -->
                 <form class="footer-form">
                     <input type="text" placeholder="Enter Your Email">
                     <button type="submit">SEND</button>
                 </form>
             </div>
+        </div>
+        <div class="backtotopbtn">
+            <a href="#totop"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
     </footer>
 </body>

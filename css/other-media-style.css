@@ -1,0 +1,124 @@
+@media(min-width: 560px){
+    .all-services{
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 4rem 2rem !important;
+    }
+    .all-services-item{
+        width: auto;
+    }
+
+    .persone-info-row-img{
+        height: 600px !important;
+    }
+
+}
+@media(min-width: 760px){
+    .persone-info-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    .persone-info-row-img{
+        width: 48%;
+    }
+    .persone-info-row-text{
+        width: 45%;
+    }
+
+}
+@media(min-width: 1120px){
+    header{
+        height: 130px !important;
+    }
+    .navbar-Two{
+        display: flex;
+    }
+
+    /* --------------  services section */
+
+    .all-services{
+        max-width: 1100px !important;
+   
+    }
+    .all-services-item h2{
+        font-size: 35px;
+    }
+
+
+    /* ---------------   start service-page */
+
+    .service-page{
+        max-width: 1100px !important;
+    }
+    .img-and-bg{
+        display: flex;
+        align-items: center;
+        background-color: #683434;
+        padding: 2rem;
+        height: 280px;
+    }
+
+    .img-and-bg div h2{
+        margin-top: 0;
+        font-size: 45px;
+    }
+    .img-and-bg img{
+        top: 2rem;
+        height: 300px;
+        width: 500px !important;
+        position: relative;
+    }
+    .start-describe-service{
+        margin-top: 8rem;
+    }
+    .other-services{
+        max-width: 1100px !important;
+        gap: 1rem;
+    }
+
+
+    /* --------  start person page  */
+
+    .persone-info h1{
+        font-size: 40px !important;
+    }
+    .persone-info{
+        max-width: 1100px !important;
+    }
+    .persone-social-icon i{
+        transition: .5s;
+        cursor: pointer;
+    }
+    .persone-social-icon i:hover{
+        background-color: #a43737;
+    }
+
+
+
+
+    
+    /* --------------   start contact  page */
+    .contact{
+        max-width: 1100px;
+        display: flex;
+    }
+    .contact-text {
+        width: 50%;
+    }
+    .form-place{
+        width: 50%;
+    }
+    .contact-text {
+        border-bottom: none;
+        border-right: 1px solid #333;
+        padding-bottom: 0;
+        padding-right: 3rem;
+    }
+    .contact-form{
+        padding-left: 3rem;
+        margin-top: 0rem;
+        gap: 3rem;
+    }
+
+}

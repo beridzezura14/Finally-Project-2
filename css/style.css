@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: 'font1';
-    src: url(/fonts/font1.ttf);
+    src: url(../fonts/font1.ttf);
 }
 
 @font-face {
     font-family: 'Symtext';
-    src: url(/fonts/Symtext.ttf);
+    src: url(../fonts/Symtext.ttf);
 }
 *{
     margin: 0;

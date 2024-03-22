@@ -30,9 +30,6 @@
 }
 .all-services-item{
     position: relative;
-    /* padding: 0 20px 20px 0; */
-    /* border-right: 3px solid #2b2b2b; */
-    /* border-bottom: 3px solid #2b2b2b; */
 }
 .shape{
     position: absolute;
@@ -63,7 +60,10 @@
     position: absolute;
     bottom: 0;
 }
-/* ---------------   start service-page */
+
+/* ---------------------------------------------------------*/
+/* ---------------   start service-page  ------------------*/
+/* ---------------------------------------------------------*/
 
 .service-page{
     max-width: 90%;
@@ -100,9 +100,6 @@
 }
 
 .start-describe-service{
-    /* display: flex;
-    flex-direction: column;
-    gap: 1rem; */
     color: #bdbdbd;
 }
 
@@ -133,7 +130,6 @@
 }
 
 
-
 .other-services{
     max-width: 90%;
     margin: 4rem auto;
@@ -143,7 +139,7 @@
 }
 .other-services-row{
     padding: 20px;
-    background-color: #202020;
+    background-color: #333;
     color: #fff;
 }
 .other-services-row img{
@@ -157,8 +153,9 @@
     margin-top: 1rem;
 }
 
-
-/* ---------   start  team page ----------- */
+/* ---------------------------------------------------------*/
+/* ------------------------   start  team page ----------- */
+/* ---------------------------------------------------------*/
 
 .persone-info{
     max-width: 90%;
@@ -177,21 +174,21 @@
 
 .persone-info-row-img{
     height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(/img/team/vano.jpg) center, no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../img/team/vano.jpg) center, no-repeat;
     background-size: cover;
     position: relative;
 }
 
 .persone-info-row-img-ilia{
-    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(/img/team/ilia.JPG) center, no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../img/team/ilia.JPG) center, no-repeat;
     background-size: cover;
 }
 .persone-info-row-img-rati{
-    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(/img/team/rati.jpg) center, no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../img/team/rati.jpg) center, no-repeat;
     background-size: cover;
 }
 .persone-info-row-img-zura{
-    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(/img/team/zura.jpg) center, no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../img/team/zura.jpg) center, no-repeat;
     background-size: cover;
 }
 .persone-social-icon{
@@ -259,4 +256,179 @@
     font-weight: 400;
     color: #a43737;
     font-size: 19px;
+}
+
+/* ---------------------------------------------------------*/
+/* --------------   start work (project) section ----------- */
+/* ---------------------------------------------------------*/
+.projects{
+    max-width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.project-item{
+    position: relative;
+    color: #fff !important;
+    border-bottom: 1px solid #333;
+    padding-bottom: 2rem;
+}
+.project-item:last-child{
+    border-bottom: none;
+
+}
+.project-item-name{
+    display: flex;
+    gap: 20px;
+}
+.item-number{
+    position: relative;
+    top: 10px;
+}
+
+.item-name{
+    font-size: 40px;
+}
+
+
+.project-item-name-marquee{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    display: none;
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 2px #a43737;
+    
+}
+.project-item-name-marquee span {
+    display: inline-block;
+    animation: marquee-work 10s linear infinite;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+@keyframes marquee-work {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-10%);
+    } 
+}
+
+
+.project-img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* ---------------------------------------------------------*/
+/* ----------------------   start price-section ----------- */
+/* ---------------------------------------------------------*/
+.section-price{
+    margin: 2rem 0;
+}
+.text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    
+}
+
+.text-wrapper h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+    padding: 10px 1rem;
+    letter-spacing: 1px;
+    animation: move-rtl 4s linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.text-wrapper1 {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    background: #a43737;
+}
+
+.text-wrapper1 h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    white-space: nowrap;
+    padding: 10px 1rem;
+    letter-spacing: 1px;
+    animation: move-rtl1 4s linear infinite;
+}
+
+@keyframes move-rtl1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.prices-row{
+    max-width: 90%;
+    margin: 4rem auto;
+    color: #fff;
+}
+
+.price-item{
+    border-bottom: 1px solid #333;
+    padding: 2rem 0;
+}
+.price-item:last-child{
+    border: none;
+}
+.site-type h2{
+    font-size: 35px;
+}
+.site-type p{
+    color: #bdbdbd;
+}
+
+.site-p{
+    margin-top: 2rem;
+    color: #bdbdbd;
+}
+
+.site-price{
+    margin-top: 2rem;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+
+.site-order{
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #fff;
 }

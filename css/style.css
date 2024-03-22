@@ -25,7 +25,9 @@ body{
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
-/* ---------------    this is rain animation part */
+/* ---------------------------------------------------------*/
+/* ---------------    this is rain animation part ----------*/
+/* ---------------------------------------------------------*/
 .rain-line{
     position: absolute;
     top: 0;
@@ -98,8 +100,13 @@ body{
         top: 98%;
     }
 }
+/* ---------------------------------------------------------*/
+/* ------------------ end rain section ----------------------*/
+/* ---------------------------------------------------------*/
 
-/* ------------   start header */
+/* ---------------------------------------------------------*/
+/* ---------------   start header --------------------------*/
+/* ---------------------------------------------------------*/
 
 header{
     position: relative;
@@ -129,7 +136,7 @@ header{
     z-index: 1111;
 }
 .navbar{
-    bottom: 0%;
+    bottom: -50px;
     position: absolute;
     z-index: 111;
     right: 20px !important;
@@ -141,7 +148,6 @@ header{
     transform-origin: top right;
     display: none;
     width: 50%;
-    /* bottom: 0; */
 }
 
 
@@ -174,27 +180,19 @@ header{
     align-items: center;
     gap: 30px;
 }
-.LetsTalk{
-    z-index: 1111;
-    padding: 10px 25px;
-    border: 1px solid #636363;
-    color: #dfdfdf;
-    transition: .5s;
-    /* border-radius: 30px; */
-    display: none;
-}
-.LetsTalk:hover{
-    border: 1px solid white;
-    color: white;
-}
 .open{
     font-size: 30px;
     color: white;
     cursor: pointer;
 }
+/* ---------------------------------------------------------*/
+/* ---------------   end header --------------------------*/
+/* ---------------------------------------------------------*/
 
-/* -------------   start hero section */
 
+/* ---------------------------------------------------------*/
+/* -------------   start hero section ----------------------*/
+/* ---------------------------------------------------------*/
 
 .socials{
     position: absolute;
@@ -230,9 +228,7 @@ header{
 
 .hero-details{
     padding: 10px 15px 10px 0;
-    /* border: 2px solid black; */
     border-radius: 10px;
-    /* width: 100%; */
     text-align: end;
     position: relative;
     z-index: 11;
@@ -242,7 +238,6 @@ header{
 }
 
 .hero-details:hover{
-    /* background: #000; */
     color: #a43737;
     transition: .5s;
     border-radius: 13px;
@@ -391,9 +386,21 @@ header{
 		height: 40px;
 	}
 }
-
 /* scroll down section end */
-/* ------- start about section */
+
+
+
+/* ---------------------------------------------------------*/
+/* -------------   end hero section ------------------------*/
+/* ---------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------*/
+/* -------------   start about section ----------------------*/
+/* ---------------------------------------------------------*/
+
+
 .about{
     max-width: 90%;
     margin: auto;
@@ -434,16 +441,16 @@ header{
     animation-timeline: view();
 }
 .about-text h2 span{
-    animation-range-start: cover 18vh;
-    animation-range-end: cover 45vh;
-}
-.about-text p span{
     animation-range-start: cover 10vh;
     animation-range-end: cover 40vh;
 }
+.about-text p span{
+    animation-range-start: cover 15vh;
+    animation-range-end: cover 30vh;
+}
 .about-text a span{
-    animation-range-start: cover 8vh;
-    animation-range-end: cover 35vh;
+    animation-range-start: cover 15vh;
+    animation-range-end: cover 30vh;
 }
 @keyframes scroll-reveal{
     to{
@@ -492,8 +499,15 @@ header{
     border: 1px solid #dfdfdf;
     color: greenyellow;
 }
+/* ---------------------------------------------------------*/
+/* -------------   start about section ----------------------*/
+/* ---------------------------------------------------------*/
 
-/* ---------------------  start ranning  marquee*/
+
+/* ---------------------------------------------------------*/
+/* -------------   start ranning section ----------------------*/
+/* ---------------------------------------------------------*/
+
 .ranning-paragraph{
     padding: 2.1rem 0;
     position: relative;
@@ -509,7 +523,7 @@ header{
     transform: rotate(3.5deg);
 }
 .marquee2{
-    /* background-color:#151515; */
+
     position: relative;
     top: 2rem;
     left: 0;
@@ -565,6 +579,18 @@ header{
         transform: translateX(0%);
     }
 }
+
+
+
+/* ---------------------------------------------------------*/
+/* -------------   end ranning section ----------------------*/
+/* ---------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------*/
+/* -------------   start ios-app section ----------------------*/
+/* ---------------------------------------------------------*/
+
 
 .ios-app{
     max-width: 90%;
@@ -702,7 +728,6 @@ header{
 }
 
 .video_intro2 {
-    /* border: 4px solid rgba(255, 255, 255, 0.682); */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
     display: flex;
@@ -710,7 +735,14 @@ header{
     width: 700px;
 }
 
-/* 2nd project end */
+/* ---------------------------------------------------------*/
+/* -------------   end ios-app section ----------------------*/
+/* ---------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------*/
+/* -------------   start services section ----------------------*/
+/* ---------------------------------------------------------*/
 
 .services{
     padding: 4rem 0;
@@ -826,7 +858,20 @@ header{
     border: 1px solid #dfdfdf;
     color: #c02f2f;
 }
-/*  ------------------------------  start team member */
+
+
+
+/* ---------------------------------------------------------*/
+/* -------------   end services section ----------------------*/
+/* ---------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------*/
+/* -------------   start team member section ----------------------*/
+/* ---------------------------------------------------------*/
+
+
 .section-team-members h2{
     font-size: 37px;
     text-align: center;
@@ -913,8 +958,16 @@ header{
     height: 350px;
     background-color: #c02f2f62;
     border-top-left-radius: 100%;
-    /* box-sh3dow: #a43737 0px 22px 70px 4px; */
 }
+
+/* ---------------------------------------------------------*/
+/* -------------   end start team member section ----------------------*/
+/* ---------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------*/
+/* -------------   start footer section ----------------------*/
+/* ---------------------------------------------------------*/
 
 footer{
     background-color: #000;
@@ -946,7 +999,7 @@ footer{
 }
 
 .footer-call img{
-    width: 40px;
+    width: 50px;
     filter: invert(2%) sepia(3%) saturate(4584%) hue-rotate(251deg) brightness(95%) contrast(84%);
 }
 
@@ -1032,22 +1085,24 @@ footer{
 .scroll-top-icon{
     font-size: 20px;
 }
+
+/* ---------------------------------------------------------*/
+/* ---------------------  scroll style ----------------------*/
+/* ---------------------------------------------------------*/
 ::-webkit-scrollbar {
     width: 10px;
   }
   
-  /* Track */
+
 ::-webkit-scrollbar-track {
     border-radius: 0px;
 }
-   
-  /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #a43737; 
     border-radius: 0px;
 }
-  
-  /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #a43737; 
 }

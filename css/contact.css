@@ -30,9 +30,9 @@ header{
 .logo{
     width: auto;
 }
-
-
-/* --------------   start contact  page */
+/* ---------------------------------------------------------*/
+/* --------------   start contact  page --------------------*/
+/* ---------------------------------------------------------*/
 .contact-page h1{
     text-align: center;
     color: #fff;
@@ -43,7 +43,6 @@ header{
     max-width: 90%;
     margin: 4rem auto;
     color: #fff;
-    /* color: #bdbdbd; */
 }
 
 .contact-text {
@@ -215,7 +214,7 @@ header{
 .iframe{
     filter: invert(10%) sepia(46%) saturate(11%) hue-rotate(14deg) brightness(99%) contrast(84%);
 }
-/* 
-footer{
-    margin-top: 7rem;
-} */
+
+/* ---------------------------------------------------------*/
+/* --------------   end contact  page --------------------*/
+/* ---------------------------------------------------------*/
